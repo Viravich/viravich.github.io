@@ -1,0 +1,104 @@
+html {
+    background-color: lightgray;
+}
+
+body {
+    background-color: lightskyblue;
+    border: 5px solid black;
+    width: 80%;
+    height: auto;
+    padding: 0 20px 20px 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px black;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+img {
+    vertical-align: center;
+    width: 20%;
+    border: 2px solid black;
+}
+
+.outdiv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: left;
+    align-items: top;
+    background-color: lightcyan;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.indiv {
+    background-color: lightcyan;
+}
+
+.paragraphdiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.subbar,
+.contactdiv {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contains {
+    background-color: #ddd;
+    width: 80%;
+    text-align: center;
+}
+
+.python {
+    width: 65%;
+    background-color: #4CAF50;
+}
+
+.java {
+    width: 45%;
+    background-color: #2196F3;
+}
+
+.html {
+    width: 45%;
+    background-color: #f44336;
+}
+
+.css {
+    width: 40%;
+    background-color: #808080;
+}
+
+.javaScript {
+    width: 30%;
+    background-color: violet;
+}
+
+.skill {
+    display: auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: center;
+    border-collapse: collapse;
+}
